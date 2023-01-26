@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maximum Food</title>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,700,0,200" />
+<body class="col-12">
+    <header id="home">
+        <!-- background -->
+        <div class="main">
+            <div class="container-fluid videohome">
+                <video autoplay loop muted play-inline class="m-0 p-0 col-12 video">
+                    <source src="/public/videos/video_burger.mp4">
+                </video>
+            </div>
+
+            <!-- Navbar -->
+            <nav class="navbar container-fluid navbar-expand-sm fixed-top">
+                <div class="container-fluid">
+                    <span class="my-2">
+                    <a href="/public/index.html" class="navbar-brand"><img src="/public/images/logo.png" alt="Logo" width="50px"></a>
+                    </span>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#togglelist">
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="togglelist">
+                        <ul class="navbar-nav ms-auto text-center">
+                            <li class="nav-item mx-2"><a href="#home" class="nav-link">Home</a></li>
+                            <li class="nav-item mx-2"><a href="#section1" class="nav-link">BurgerKing</a></li>
+                            <li class="nav-item mx-2"><a href="#section2" class="nav-link">BurgerQueen</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- content -->
+            <div class="content col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h1>Burger</h1>
+                <a href="#" class="exbutton">Explore</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- section burgerking -->
+    <section id="section1">
+        <div class="container-fluid bksection m-0 row boxcontent">
+            <div class="col-lg-6 p-0 boxphotok revealright">
+                <div class="headburger container-fluid">
+                    <p>BurgerKing</p>
+                </div>
+                <div class="container-fluid photo">
+                    <img src="/public/images/burger.png" alt="burgerking" width="60%">
+                </div>
+            </div>
+            <div class="col-lg-6 boxcontent revealleft">
+                <div class="container-fluid contentburger">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente architecto harum maiores in placeat inventore quod doloremque recusandae id voluptate eligendi sunt voluptates at cumque, enim qui ipsam atque laudantium quam maxime iusto eius unde. Commodi nisi nemo asperiores blanditiis mollitia reiciendis pariatur. Sequi porro assumenda aut dolores neque praesentium.</p>
+                    <br><br><br>
+                    <a href="#" class="text-decoration-none"><div class="menubutton">Manage Menu</div></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section burgerqueen -->
+    <section id="section2">
+        <div class="container-fluid bqsection m-0 row boxcontentq">
+            <div class="col-lg-6 boxcontentq revealright">
+                <div class="container-fluid contentburgerq">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente architecto harum maiores in placeat inventore quod doloremque recusandae id voluptate eligendi sunt voluptates at cumque, enim qui ipsam atque laudantium quam maxime iusto eius unde. Commodi nisi nemo asperiores blanditiis mollitia reiciendis pariatur. Sequi porro assumenda aut dolores neque praesentium.</p>
+                    <br><br><br>
+                    <a href="#" class="text-decoration-none"><div class="menubuttonq">Manage Menu</div></a>
+                </div>
+            </div>
+            <div class="col-lg-6 p-0 boxphotoq revealleft">
+                <div class="headburgerq container-fluid">
+                    <p>BurgerQueen</p>
+                </div>
+                <div class="container-fluid photo">
+                    <img src="/public/images/burger.png" alt="burgerking" width="60%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid sticky-sm-bottom position-absolute footer col-sm-12">
+            <p>&copy; 2023 Powered by Maximum Food</p>
+        </div>
+    </footer> 
+    <script src="/App.js"></script>
+</body>
+</html>
